@@ -1,0 +1,25 @@
+@import '../../Common/Style/variables';
+.wrapper {
+  width: 100%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  z-index: 10;
+  background: #fff;
+  border-bottom: 1px solid #e7e7e7;
+  position: fixed;
+  top: 0;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.text {
+  font-family: $mainFont;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 200;
+  color: #6d4e34;
+  //text-transform: capitalize;
+}
