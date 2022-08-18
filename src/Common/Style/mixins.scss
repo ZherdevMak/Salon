@@ -7,3 +7,8 @@
   line-height: $lineHeight;
   color:$textColor
 }
+@mixin flex ($flex,$contentflex,$alignflex) {
+  display: $flex;
+  justify-content: $contentflex;
+  align-items: $alignflex;
+}
