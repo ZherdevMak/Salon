@@ -3,6 +3,7 @@ import './App.scss';
 import Header from "./Header/Header";
 import Slider from "./Main/Slider/Slider";
 import SliderTitle from "./Main/SliderTitle/SliderTitle";
+import Video from "./Main/Video/Video";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Header/>
             <Slider/>
             <SliderTitle/>
+            <Video/>
         </div>
     );
 }

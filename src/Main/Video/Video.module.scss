@@ -1,0 +1,71 @@
+@import '../../Common/Style/variables';
+@import '../../Common/Style/mixins';
+
+.Video {
+  @include flex(flex, center, center);
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 50px 0 0;
+
+  .container {
+    @include flex(flex, center, center);
+    flex-direction: column;
+    width: 90%;
+    padding-top: 100px;
+    .frameWrapper {
+      width: 100%;
+      position: relative;
+      padding-bottom: 56.5%;
+      margin-bottom: 20px;
+      .frame {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding-right: 5%;
+        border: none !important;
+      }
+    }
+
+
+    .TextContainer {
+      @include flex(flex, flex-start, center);
+      width: 95%;
+      padding: 30px 10px 20px;
+      margin: 0;
+
+      .Text {
+        @include text($mainFont, 48px, 500, 48px);
+        color: $textColor;
+        margin: 0;
+      }
+    }
+
+    .discriptionContainer {
+      @include flex(flex, center, flex-start);
+      flex-direction: column;
+      width: 95%;
+
+      .buttonCall {
+        @include text($secondFont, 17px, 200, 24px);
+        background-color: transparent;
+        border: 1px solid #000000;
+        display: inline-block;
+        cursor: pointer;
+        color: #000000;
+        padding: 16px 31px;
+        text-decoration: none;
+      }
+
+      .discript {
+        @include text($discriptFont, 15px, 300, 24px);
+        padding-top: 25px;
+        color: $discriptColor;
+        background-color: #fff;
+        margin: 0;
+      }
+    }
+  }
+}
+
