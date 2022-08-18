@@ -1,4 +1,5 @@
 @import '../../Common/Style/variables';
+@import '../../Common/Style/mixins';
 .wrapper {
   width: 100%;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -7,36 +8,37 @@
   border-bottom: 1px solid #e7e7e7;
   position: fixed;
   top: 0;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    .textContainer {
+      padding: 13px 0;
+      .text {
+        padding-left: 20px;
+        margin: 0;
+        @include text($mainFont,30px,500,26px);
+        color: #6d4e34;
+      }
+    }
+    .iconWrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 10px;
+      margin: 6px 5px 6px 0;
+      border: 1px solid #e7e7e7;
+    }
+  }
+
 }
 
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-}
-.textContainer {
-  padding: 13px 0;
-}
-.text {
-  padding-left: 20px;
-  margin: 0;
-  font-family: $mainFont;
-  font-size: 30px;
-  line-height: 26px;
-  font-weight: 500;
-  color: #6d4e34;
-  //text-transform: capitalize;
-}
-.iconWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  padding: 10px;
-  margin: 6px 5px 6px 0;
-  border: 1px solid #e7e7e7;
-}
+
+
+
+
