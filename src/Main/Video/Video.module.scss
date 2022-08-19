@@ -8,7 +8,7 @@
   padding: 50px 0 0;
 
   .container {
-    @include flex(flex, center, center);
+    @include flex(flex, center, flex-start);
     flex-direction: column;
     width: 90%;
     padding-top: 100px;
@@ -32,8 +32,8 @@
     .TextContainer {
       @include flex(flex, flex-start, center);
       width: 95%;
-      padding: 30px 10px 20px;
       margin: 0;
+      margin-bottom: 15px;
 
       .Text {
         @include text($mainFont, 48px, 500, 48px);
@@ -47,24 +47,21 @@
       flex-direction: column;
       width: 95%;
 
-      .buttonCall {
-        @include text($secondFont, 17px, 200, 24px);
-        background-color: transparent;
-        border: 1px solid #000000;
-        display: inline-block;
-        cursor: pointer;
-        color: #000000;
-        padding: 16px 31px;
-        text-decoration: none;
-      }
+
 
       .discript {
         @include text($discriptFont, 15px, 300, 24px);
-        padding-top: 25px;
         color: $discriptColor;
         background-color: #fff;
         margin: 0;
       }
+    }
+    .socialIcon {
+      width: 28px;
+      height: 28px;
+      margin-right: 20px;
+      margin-top: 20px;
+      background: url('../../Assets/images/social-icon.png') no-repeat;
     }
   }
 }

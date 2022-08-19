@@ -12,7 +12,7 @@ const Video = () => {
                 </div>
 
                 <div className={stl.TextContainer}>
-                    <h2 className={stl.Text}>SALON SAFARI</h2>
+                    <h2 className={stl.Text}>WHO WE ARE</h2>
                 </div>
                 <div className={stl.discriptionContainer}>
                     <p className={stl.discript}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
@@ -22,6 +22,7 @@ const Video = () => {
                         aliquam aspernatur aut exercitationem, laborum minus quasi quisquam reiciendis vel. Explicabo
                         libero quisquam totam ullam!</p>
                 </div>
+                <a className={stl.socialIcon} href="https://www.facebook.com/SalonSafariandSpa/"></a>
             </div>
         </section>
     );
