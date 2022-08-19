@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/salon/static/css/main.c38b6ea6.css",
+    "main.js": "/salon/static/js/main.54c7e429.js",
+    "static/js/787.1ed0c42c.chunk.js": "/salon/static/js/787.1ed0c42c.chunk.js",
+    "static/media/fist2.jpg": "/salon/static/media/fist2.513fa445b9d5994fa9af.jpg",
+    "static/media/fist1.jpg": "/salon/static/media/fist1.45e60207ed6c5695cbdb.jpg",
+    "static/media/YanoneKaffeesatz-VariableFont_wght.ttf": "/salon/static/media/YanoneKaffeesatz-VariableFont_wght.37c90492b250d0f6a6a7.ttf",
+    "static/media/Alphd___.ttf": "/salon/static/media/Alphd___.5c1e2bce7f996ce06a3f.ttf",
+    "index.html": "/salon/index.html",
+    "main.c38b6ea6.css.map": "/salon/static/css/main.c38b6ea6.css.map",
+    "main.54c7e429.js.map": "/salon/static/js/main.54c7e429.js.map",
+    "787.1ed0c42c.chunk.js.map": "/salon/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c38b6ea6.css",
+    "static/js/main.54c7e429.js"
+  ]
+}
