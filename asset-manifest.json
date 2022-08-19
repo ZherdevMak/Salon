@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/Salon/static/css/main.4760369c.css",
-    "main.js": "/Salon/static/js/main.918feecc.js",
-    "static/js/787.23dbebe1.chunk.js": "/Salon/static/js/787.23dbebe1.chunk.js",
+    "main.css": "/Salon/static/css/main.c19f26a2.css",
+    "main.js": "/Salon/static/js/main.468f7fec.js",
+    "static/js/787.8dd00d29.chunk.js": "/Salon/static/js/787.8dd00d29.chunk.js",
     "static/media/fist2.jpg": "/Salon/static/media/fist2.513fa445b9d5994fa9af.jpg",
     "static/media/fist1.jpg": "/Salon/static/media/fist1.45e60207ed6c5695cbdb.jpg",
     "static/media/YanoneKaffeesatz-VariableFont_wght.ttf": "/Salon/static/media/YanoneKaffeesatz-VariableFont_wght.37c90492b250d0f6a6a7.ttf",
     "static/media/Alphd___.ttf": "/Salon/static/media/Alphd___.5c1e2bce7f996ce06a3f.ttf",
+    "static/media/photo-1.jpg": "/Salon/static/media/photo-1.5345becbd0ca4e4dbb72.jpg",
+    "static/media/photo-2.jpg": "/Salon/static/media/photo-2.6858a8ee9993cfeabc77.jpg",
+    "static/media/photo-3.jpg": "/Salon/static/media/photo-3.71bcf661b035f4edfb00.jpg",
     "index.html": "/Salon/index.html",
-    "main.4760369c.css.map": "/Salon/static/css/main.4760369c.css.map",
-    "main.918feecc.js.map": "/Salon/static/js/main.918feecc.js.map",
-    "787.23dbebe1.chunk.js.map": "/Salon/static/js/787.23dbebe1.chunk.js.map"
+    "main.c19f26a2.css.map": "/Salon/static/css/main.c19f26a2.css.map",
+    "main.468f7fec.js.map": "/Salon/static/js/main.468f7fec.js.map",
+    "787.8dd00d29.chunk.js.map": "/Salon/static/js/787.8dd00d29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4760369c.css",
-    "static/js/main.918feecc.js"
+    "static/css/main.c19f26a2.css",
+    "static/js/main.468f7fec.js"
   ]
 }
