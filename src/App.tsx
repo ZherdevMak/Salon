@@ -4,6 +4,7 @@ import Header from "./Header/Header";
 import Slider from "./Main/Slider/Slider";
 import SliderTitle from "./Main/SliderTitle/SliderTitle";
 import Video from "./Main/Video/Video";
+import Salon from "./Main/Salon/Salon";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Slider/>
             <SliderTitle/>
             <Video/>
+            <Salon/>
         </div>
     );
 }

@@ -1,0 +1,40 @@
+@import '../../Common/Style/variables';
+@import '../../Common/Style/mixins';
+
+.Salon {
+  @include flex(flex,center,center);
+  width: 100%;
+  padding-top: 50px;
+
+  .container {
+    @include flex(flex,center,center);
+    flex-direction: column;
+    width: 90%;
+    padding-top: 100px;
+
+
+    .TextContainer {
+      @include flex(flex,flex-start,center);
+      width: 100%;
+      padding-bottom: 20px;
+      margin: 0;
+
+      .Text {
+        @include text($mainFont, 35px, 500, 40px);
+        color: $textColor;
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+    .imageContainer {
+      @include flex(flex,center,center);
+      flex-direction: column;
+      width: 100%;
+      .image {
+        width: 100%;
+      }
+    }
+  }
+}
+
