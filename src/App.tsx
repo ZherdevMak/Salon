@@ -6,6 +6,7 @@ import SliderTitle from "./Main/SliderTitle/SliderTitle";
 import Video from "./Main/Video/Video";
 import Salon from "./Main/Salon/Salon";
 import Exellence from "./Main/Exellence/Exellence";
+import Services from "./Main/Services/Services";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <Video/>
             <Salon/>
             <Exellence/>
+            <Services/>
         </div>
     );
 }

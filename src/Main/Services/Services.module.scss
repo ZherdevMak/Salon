@@ -1,0 +1,47 @@
+@import '../../Common/Style/variables';
+@import '../../Common/Style/mixins';
+
+
+.Services {
+  @include flex(flex, center, center);
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 50px 0 0;
+
+  .container {
+    @include flex(flex, center, flex-start);
+    flex-direction: column;
+    width: 90%;
+    padding-top: 10px;
+
+    .TextContainer {
+      @include flex(flex,flex-end,center);
+      width: 95%;
+      padding: 30px 20px 20px 0;
+      margin: 0;
+
+      .Text {
+        @include text($mainFont, 48px, 500, 48px);
+        color: $textColor;
+        margin: 0;
+      }
+    }
+    .SecondTextContainer {
+      @include flex(flex,flex-start,center);
+      width: 95%;
+      padding: 50px 20px 20px 0;
+      margin: 0;
+
+      .SecondText {
+        @include text($mainFont, 36px, 200, 48px);
+        color: $textColor;
+        margin: 0;
+      }
+    }
+    .SalonServicesImage {
+      width: 100%;
+    }
+
+  }
+}
+
