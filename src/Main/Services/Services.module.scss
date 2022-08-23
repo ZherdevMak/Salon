@@ -15,7 +15,7 @@
     padding-top: 10px;
 
     .TextContainer {
-      @include flex(flex,flex-end,center);
+      @include flex(flex, flex-end, center);
       width: 95%;
       padding: 30px 20px 20px 0;
       margin: 0;
@@ -26,8 +26,9 @@
         margin: 0;
       }
     }
+
     .SecondTextContainer {
-      @include flex(flex,flex-start,center);
+      @include flex(flex, flex-start, center);
       width: 95%;
       padding: 50px 20px 20px 0;
       margin: 0;
@@ -38,10 +39,69 @@
         margin: 0;
       }
     }
-    .SalonServicesImage {
-      width: 100%;
+
+    .imageContainer {
+      @include flex(flex, center, flex-end);
+
+      .SalonServicesImage {
+        width: 100%;
+      }
     }
 
+    .salonServicesTable {
+      width: 100%;
+      margin-top: 0;
+      @include text($discriptFont, 15px, 300, 24px);
+      color: #333;
+      border-spacing: 0px;
+      .tableHead {
+
+        .tableHead1 {
+          padding: 13px 5px 8px 15px;
+          font-size: 12px;
+          background: #000;
+          color: #fff;
+          text-align: left;
+          width: 75%;
+          border-right: solid 1px #e2e2e2;
+
+        }
+        .tableHead2 {
+          padding: 13px 5px 8px 15px;
+          font-size: 12px;
+          background: #000;
+          color: #fff;
+          text-align: left;
+          width: 25%;
+        }
+      }
+      .tableRow {
+        .tableDataOdd {
+          padding: 8px 5px 8px 15px;
+          font-size: 12px;
+          vertical-align: top;
+          border: solid 1px #e2e2e2;
+        }
+        .tableDataEven {
+          padding: 8px 5px 8px 15px;
+          font-size: 12px;
+          vertical-align: top;
+          background-color: #f6f6f6;
+          border-right: solid 1px #e2e2e2;
+          border-left: solid 1px #e2e2e2;
+        }
+      }
+
+    }
+    .priceText {
+      font-size: 12px;
+      margin: 0;
+      margin-top: 4px;
+    }
+    .extraText {
+      text-align: center;
+      margin: 4px 0 20px 0;
+    }
   }
 }
 
