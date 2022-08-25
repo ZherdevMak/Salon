@@ -197,7 +197,6 @@ const Services = () => {
                     </tr>
                     </tbody>
                 </table>
-
             </div>
         </section>
     );
