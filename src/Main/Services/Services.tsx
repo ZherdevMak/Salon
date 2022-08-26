@@ -192,7 +192,7 @@ const Services = () => {
                         <td className={stl.tableDataOdd}>$75.00+</td>
                     </tr>
                     <tr>
-                        <td className={stl.tableDataEven}>Make Up (Available upon request)</td>
+                        <td className={stl.tableDataEven}>Make Up(Available upon request)</td>
                         <td className={stl.tableDataEven}>$65.00+</td>
                     </tr>
                     </tbody>
