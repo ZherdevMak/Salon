@@ -1,0 +1,41 @@
+@import '../../Common/Style/variables';
+@import '../../Common/Style/mixins';
+
+.Appointment {
+  @include flex(flex,center,center);
+  width: 100%;
+  padding-top: 50px;
+
+  .container {
+    @include flex(flex,center,center);
+    flex-direction: column;
+    width: 90%;
+    background: url('../../Assets/images/appointBack.jpg') no-repeat fixed center top;
+
+
+    .TextContainer {
+      @include flex(flex,flex-start,center);
+      flex-direction: column;
+      width: 100%;
+      padding-bottom: 20px;
+      margin: 0;
+
+      .Text {
+        @include text($mainFont, 48px, 500, 48px);
+        color: $secondTextColor;
+        margin: 0;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+    .imageContainer {
+      @include flex(flex,center,center);
+      flex-direction: column;
+      width: 100%;
+      .image {
+        width: 100%;
+      }
+    }
+  }
+}
+

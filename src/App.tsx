@@ -7,6 +7,7 @@ import Video from "./Main/Video/Video";
 import Salon from "./Main/Salon/Salon";
 import Exellence from "./Main/Exellence/Exellence";
 import Services from "./Main/Services/Services";
+import Appointment from "./Main/Appointment/Appointment";
 
 function App() {
     return (
@@ -18,6 +19,8 @@ function App() {
             <Salon/>
             <Exellence/>
             <Services/>
+            <Appointment/>
+
         </div>
     );
 }
