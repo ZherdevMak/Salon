@@ -8,6 +8,7 @@ import Salon from "./Main/Salon/Salon";
 import Exellence from "./Main/Exellence/Exellence";
 import Services from "./Main/Services/Services";
 import Appointment from "./Main/Appointment/Appointment";
+import Contacts from "./Main/Contacts/Contacts";
 
 function App() {
     return (
@@ -20,7 +21,8 @@ function App() {
             <Exellence/>
             <Services/>
             <Appointment/>
-            <Appointment/>
+            <Contacts/>
+            <Contacts/>
 
         </div>
     );
