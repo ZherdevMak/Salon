@@ -20,6 +20,7 @@ function App() {
             <Exellence/>
             <Services/>
             <Appointment/>
+            <Appointment/>
 
         </div>
     );
