@@ -4,7 +4,7 @@
 .Contacts {
   @include flex(flex, center, center);
   width: 100%;
-  padding-top: 50px;
+  //padding-top: 50px;
   background-color: $textColor;
 
   .container {
@@ -20,8 +20,9 @@
     .TextContainer {
       @include flex(flex, flex-start, center);
       width: 100%;
-      padding-bottom: 20px;
+      padding:30px 40px;
       margin: 0;
+      background-color: #ccc;
 
       .Text {
         @include text($mainFont, 48px, 500, 48px);
@@ -56,7 +57,8 @@
     }
     .workHoursContainer {
       width: 100%;
-      @include flex(flex, flex-end, center);
+      @include flex(flex, center, flex-end);
+      flex-direction: column;
       .workHoursText {
         @include text($mainFont, 36px, 200, 1.1);
         color: $secondTextColor;
@@ -66,7 +68,55 @@
         padding-top: 40px;
 
       }
+      .workhoursTable {
+        color: #fff;
+        //width: 100%;
+      }
     }
+  }
+}
+.footerContainer {
+  background-color: #ccc;
+  .buttonWrapper {
+    width: 100%;
+    @include flex(flex, center, flex-end);
+    flex-direction: column;
+  }
+  .callButton {
+    margin: 10px 15px;
+    @include text($secondFont, 22px, 200, 24px);
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    //border: 1px solid transparent;
+    white-space: nowrap;
+    color: $textColor;
+    background-color: #fff;
+    //border-color: #fff;
+    width: 65%;
+    border-radius: 0;
+    padding: 10px 15px;
+    text-decoration: none;
+    &:focus,  {
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: $discriptColor;
+    }
+    &:hover  {
+      border: 1px solid #fff;
+      background-color: transparent;
+      color: $discriptColor;
+    }
+  }
+  .footerText {
+    @include text($discriptFont,15px,200,24px);
+    color: #fff;
+    margin: 30px 0 0 15px;
   }
 }
 

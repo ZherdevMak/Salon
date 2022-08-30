@@ -22,8 +22,6 @@ function App() {
             <Services/>
             <Appointment/>
             <Contacts/>
-            <Contacts/>
-
         </div>
     );
 }
