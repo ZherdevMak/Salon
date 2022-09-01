@@ -20,6 +20,9 @@
         @include text($mainFont, 48px, 500, 48px);
         color: $textColor;
         margin: 0;
+        @media (min-width: 480px){
+          @include text($mainFont, 60px, 500, 60px)
+        }
       }
     }
     .discriptionContainer {
