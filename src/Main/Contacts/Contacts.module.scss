@@ -30,6 +30,8 @@
         margin: 0;
         text-transform: uppercase;
         text-align: center;
+        @media (min-width: 480px){
+          @include text($mainFont, 60px, 500, 60px);}
       }
     }
 

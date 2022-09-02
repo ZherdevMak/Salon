@@ -24,6 +24,9 @@
         @include text($mainFont, 48px, 500, 48px);
         color: $textColor;
         margin: 0;
+        @media (min-width: 480px){
+          @include text($mainFont, 60px, 500, 60px)
+        }
       }
     }
 
@@ -37,6 +40,9 @@
         @include text($mainFont, 36px, 200, 48px);
         color: $textColor;
         margin: 0;
+        @media (min-width: 480px){
+          @include text($mainFont, 45px, 200, 48px)
+        }
       }
     }
 
@@ -53,12 +59,15 @@
       margin-top: 0;
       @include text($discriptFont, 15px, 300, 24px);
       color: #333;
-      border-spacing: 0px;
+      border-spacing: 0;
       .tableHead {
 
         .tableHead1 {
           padding: 13px 5px 8px 15px;
           font-size: 12px;
+          @media (min-width: 480px){
+            font-size: 18px;
+          }
           background: #000;
           color: #fff;
           text-align: left;
@@ -69,6 +78,9 @@
         .tableHead2 {
           padding: 13px 5px 8px 15px;
           font-size: 12px;
+          @media (min-width: 480px){
+            font-size: 18px;
+          }
           background: #000;
           color: #fff;
           text-align: left;
@@ -81,10 +93,16 @@
           font-size: 12px;
           vertical-align: top;
           border: solid 1px #e2e2e2;
+          @media (min-width: 480px){
+            font-size: 15px;
+          }
         }
         .tableDataEven {
           padding: 8px 5px 8px 15px;
           font-size: 12px;
+          @media (min-width: 480px){
+            font-size: 15px;
+          }
           vertical-align: top;
           background-color: #f6f6f6;
           border-right: solid 1px #e2e2e2;
