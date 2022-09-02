@@ -5,3 +5,19 @@
   font-family: $mainFont;
   width: 100%;
 }
+.buttonScroll {
+  z-index: 50;
+  width: 46px;
+  height: 46px;
+  position: fixed;
+  bottom: 50px;
+  color: #fff;
+  text-indent: -9999px;
+  right: 30px;
+  background: url('../Assets/images/scroll-top-arrow.png') no-repeat 7px 7px;
+  background-color: #000;
+  border: 1px solid #fff;
+  transition: opacity 0.2s linear .2s;
+  -webkit-transition: opacity 0.2s linear .2s
+
+}

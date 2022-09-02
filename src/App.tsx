@@ -10,7 +10,9 @@ import Services from "./Main/Services/Services";
 import Appointment from "./Main/Appointment/Appointment";
 import Contacts from "./Main/Contacts/Contacts";
 
+
 function App() {
+
     return (
         <div className="App">
             <Header/>
@@ -22,6 +24,7 @@ function App() {
             <Services/>
             <Appointment/>
             <Contacts/>
+
         </div>
     );
 }

@@ -5,6 +5,7 @@ import photo2 from "../../Assets/images/photo-2.jpg"
 import photo3 from "../../Assets/images/photo-3.jpg"
 
 const Salon = () => {
+
     return (
         <section className={stl.Salon}>
             <div className={stl.container}>
@@ -17,7 +18,9 @@ const Salon = () => {
                     <img className={stl.image} src={photo3} alt="towels"/>
                 </div>
             </div>
+
         </section>
+
     );
 };
 
