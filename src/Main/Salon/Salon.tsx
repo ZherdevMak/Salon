@@ -15,7 +15,7 @@ const Salon = () => {
                 <div className={stl.imageContainer}>
                     <img className={stl.image} src={photo1} alt="salon interior"/>
                     <img className={stl.image} src={photo2} alt="salon hall"/>
-                    <img className={stl.image} src={photo3} alt="towels"/>
+                    <img className={stl.image} src={photo3} alt="Towels"/>
                 </div>
             </div>
 
