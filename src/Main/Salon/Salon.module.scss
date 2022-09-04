@@ -5,14 +5,11 @@
   @include flex(flex,center,center);
   width: 100%;
   padding-top: 50px;
-
   .container {
     @include flex(flex,center,center);
     flex-direction: column;
     width: 90%;
     padding-top: 100px;
-
-
     .TextContainer {
       @include flex(flex,flex-start,center);
       width: 100%;
@@ -36,7 +33,6 @@
       }
     }
   }
-
 }
 
 
