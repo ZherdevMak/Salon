@@ -13,8 +13,8 @@ const Salon = () => {
                     <h3 className={stl.Text}> Over 35 years of service in the city of Brampton</h3>
                 </div>
                 <div className={stl.imageContainer}>
-                    <img className={stl.image} src={photo1} alt="salon interior"/>
-                    <img className={stl.image} src={photo2} alt="salon hall"/>
+                    <img className={stl.image} src={photo1} alt="Salon Interior"/>
+                    <img className={stl.image} src={photo2} alt="Salon hall"/>
                     <img className={stl.image} src={photo3} alt="Towels"/>
                 </div>
             </div>

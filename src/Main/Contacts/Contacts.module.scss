@@ -60,6 +60,9 @@
     .workHoursContainer {
       width: 100%;
       @include flex(flex, center, flex-end);
+      @media (min-width: 768px) {
+        align-items: center;
+      }
       flex-direction: column;
       .workHoursText {
         @include text($mainFont, 36px, 200, 1.1);
@@ -83,6 +86,9 @@
     width: 100%;
     @include flex(flex, center, flex-end);
     flex-direction: column;
+    @media (min-width: 768px) {
+      align-items: center;
+    }
   }
   .callButton {
     margin: 10px 15px;
@@ -116,6 +122,9 @@
     }
   }
   .footerText {
+    @media (min-width: 768px) {
+      @include flex(flex, center, center);
+    }
     @include text($discriptFont,15px,200,24px);
     color: #fff;
     margin: 30px 0 0 15px;
