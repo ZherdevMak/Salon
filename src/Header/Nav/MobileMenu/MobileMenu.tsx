@@ -1,17 +1,17 @@
 import React from 'react';
-
+import stl from './MobileMenu.module.scss'
 const MobileMenu = () => {
     return (
-        <div>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
-                <div></div>
+        <div className={stl.MenuWrapper}>
+            <ul className={stl.ulContainer}>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">home</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">the salon</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">services</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">salon services</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">spa services</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">bridal services</a></li>
+                <li className={stl.liContainer}><a className={stl.linkContainer} href="">contact us</a></li>
+                <li className={stl.lastLi}></li>
             </ul>
         </div>
     );
