@@ -10,7 +10,7 @@ const Salon = () => {
         <section className={stl.Salon}>
             <div className={stl.container}>
                 <div className={stl.TextContainer}>
-                    <h3 className={stl.Text}> Over 35 years of service in the city of Brampton</h3>
+                    <h3 className={stl.Text}> Over 40 years of service in the city of Brampton</h3>
                 </div>
                 <div className={stl.imageContainer}>
                     <img className={stl.image} src={photo1} alt="Salon Interior"/>
